@@ -1,0 +1,20 @@
+img {
+    scale: 50%;
+    transition: transform 5s ease;
+}
+
+img:hover {
+    -webkit-transform: scale(1.5);
+    /* or some other value */
+    transform: scale(1.5);
+    display: block;
+    margin-right: auto;
+}
+
+div.topLeft {
+
+    position: left;
+
+    right: 0;
+
+}
