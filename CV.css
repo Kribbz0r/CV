@@ -6,29 +6,43 @@
         'Lucida Sans', Arial, sans-serif;
 }
 
-
 .top {
-    text-indent: 2rem;
-    padding: 40px 0;
-    background-color: rgb(142, 190, 212);
-    background-size: cover;
-    border: 50px solid rgb(163, 210, 231);
+
+    background-color: rgb(24, 46, 56);
+    border-left: 50px;
+    border-top: 50px;
+    border-right: 50px;
     border-bottom: 0;
+    border-style: solid;
+    border-color: rgb(147, 219, 241);
+    text-indent: 0.5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: aliceblue;
+
 }
 
+a {
+    color: aliceblue;
+}
 
-.leftborder {
-    position: top 0, left 0;
-    margin: 0;
-    background-color: rgb(163, 210, 231);
-    height: 67vh;
-    width: 50px;
-    float: left;
-
+.main {
+    text-indent: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(24, 46, 56);
+    height: 100vh;
+    border-left: 50px;
+    border-top: 0px;
+    border-right: 50px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: rgb(147, 219, 241);
+    color: aliceblue;
 }
 
 img {
-
+    margin-bottom: 55px;
     width: 200px;
     transition: transform 1s ease;
     position: relative;
@@ -51,19 +65,8 @@ img:hover {
 }
 
 .profil {
-    background-color: purple;
-    border-right: 50px solid rgb(163, 210, 231);
-    border-left: 350px solid rgb(13, 61, 83);
-
-
-
-}
-
-.bottomLeft {
-
-    padding: 100px 1rem;
-    background-color: red;
-    border-left: 50px solid rgb(163, 210, 231);
-    border-right: 50px solid rgb(163, 210, 231);
-    border-bottom: 50px solid rgb(163, 210, 231);
+    color: rgb(114, 114, 114);
+    text-indent: 0rem;
+    background-color: rgb(255, 255, 255);
+    border-left: 100px solid rgb(255, 255, 255);
 }
