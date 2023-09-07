@@ -47,9 +47,13 @@ img {
     transition: transform 1s ease;
     position: relative;
     float: left;
-
+    transform-origin: left;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
 
 img:hover {
 
@@ -58,13 +62,15 @@ img:hover {
     -webkit-transform: scale(1);
     /* or some other value */
     transform: scale(1.5);
-    transform-origin: left;
+
     display: block;
     margin-left: 0%;
     float: left;
 }
 
 .profil {
+    padding-right: 5rem;
+    padding-top: 1rem;
     color: rgb(114, 114, 114);
     text-indent: 0rem;
     background-color: rgb(255, 255, 255);
